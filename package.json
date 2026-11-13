@@ -1,0 +1,38 @@
+{
+  "name": "opencode-deeprelay-auth",
+  "version": "0.1.0",
+  "description": "OpenCode and magpie provider plugin: deeprelay.ai inference with plan usage",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "magpie",
+    "deeprelay",
+    "deepseek",
+    "glm",
+    "kimi",
+    "qwen"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ara-hwang/magpie-deeprelay.git"
+  },
+  "scripts": {
+    "test": "node --test",
+    "fake": "node scripts/fake-server.mjs"
+  },
+  "magpie": {
+    "summary": {
+      "en": "deeprelay.ai: one OpenAI-compatible key for DeepSeek, GLM, Kimi, Qwen and more, with plan usage and credit balance.",
+      "zh": "deeprelay.ai：一个 OpenAI 兼容密钥使用 DeepSeek、GLM、Kimi、Qwen 等模型，并显示套餐用量与余额。"
+    },
+    "maxConcurrency": 8
+  }
+}
