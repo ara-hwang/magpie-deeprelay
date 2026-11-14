@@ -1,6 +1,6 @@
 # deeprelay for magpie
 
-Unofficial [magpie](https://usemagpie.ai/) and [OpenCode](https://opencode.ai/) provider plugin for [deeprelay.ai](https://deeprelay.ai/). It connects deeprelay's OpenAI-compatible inference API to magpie and shows the subscription's usage in the Providers page and in `magpie quota`.
+Unofficial [magpie](https://usemagpie.ai/) provider plugin for [deeprelay.ai](https://deeprelay.ai/). It connects deeprelay's OpenAI-compatible inference API to magpie and shows the subscription's usage in the Providers page and in `magpie quota`. The package follows OpenCode's provider plugin shape, so it works there too.
 
 Not affiliated with deeprelay.ai or magpie.
 
@@ -32,7 +32,7 @@ The billing endpoints need the `billing:read` scope. A standard dashboard key ca
 ### From npm
 
 ```sh
-magpie plugin add opencode-deeprelay-auth
+magpie plugin add magpie-deeprelay
 magpie plugin login deeprelay
 ```
 
@@ -61,7 +61,7 @@ The package follows OpenCode's provider plugin shape. After installing it from n
 
 ```json
 {
-  "plugin": ["opencode-deeprelay-auth"]
+  "plugin": ["magpie-deeprelay"]
 }
 ```
 

@@ -1,4 +1,4 @@
-// magpie / OpenCode provider plugin for deeprelay.ai
+// magpie provider plugin for deeprelay.ai, in OpenCode's plugin shape.
 //
 // deeprelay serves DeepSeek, GLM, Kimi, Qwen and more behind one
 // OpenAI-compatible endpoint. This plugin signs in with an API key, lists the
@@ -8,7 +8,7 @@
 const PROVIDER = "deeprelay"
 const VERSION = "0.1.0"
 const DEFAULT_BASE = "https://api.deeprelay.ai/v1"
-const CLIENT = `opencode-deeprelay-auth/${VERSION}`
+const CLIENT = `magpie-deeprelay/${VERSION}`
 
 // The chat catalogue deeprelay publishes. The live /v1/models call is still the
 // source of truth; these entries provide names, context limits and capability

@@ -1,7 +1,7 @@
 {
-  "name": "opencode-deeprelay-auth",
+  "name": "magpie-deeprelay",
   "version": "0.1.0",
-  "description": "OpenCode and magpie provider plugin for deeprelay.ai: one OpenAI-compatible key for DeepSeek, GLM, Kimi, Qwen and more, with plan usage.",
+  "description": "Unofficial magpie provider plugin for deeprelay.ai: one OpenAI-compatible key for DeepSeek, GLM, Kimi, Qwen and more, with plan usage.",
   "type": "module",
   "main": "./index.mjs",
   "files": [

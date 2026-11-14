@@ -234,7 +234,7 @@ test("the loader signs every request with the account key", async (t) => {
     assert.equal(url, "https://api.deeprelay.ai/v1/chat/completions")
     const headers = new Headers(init.headers)
     assert.equal(headers.get("authorization"), "Bearer deeprelay_live_test")
-    assert.equal(headers.get("x-deeprelay-client"), "opencode-deeprelay-auth/0.1.0")
+    assert.equal(headers.get("x-deeprelay-client"), "magpie-deeprelay/0.1.0")
     return json({ ok: true })
   })
   t.after(() => stub.restore())
